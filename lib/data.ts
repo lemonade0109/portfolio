@@ -11,14 +11,14 @@ export const site = {
   headline:
     "I build production ready web applications with Next.js, React, Prisma, TypeScript,and Cloud Tooling.",
   ctaPrimary: { label: "Github", href: "https://github.com/lemonade0109" },
-  ctaSecondary: { label: "Download CV", href: "" },
-  ctaTertiary: { label: "Contact Me", href: "/contact" },
+  ctaSecondary: { label: "Download CV", href: "/Jubril_Oyebamiji_CV.pdf" },
+  ctaTertiary: { label: "Contact Me", href: "#contact" },
 };
 
 export const projects = [
   {
     name: "Secure Escort",
-    desc: "Security escort + delivery platform with role based dashboards, tracking, notifications, and analytics.",
+    desc: "Full stack security escort and delivery management platform with role based dashboards for users, guards, administrators.",
     live: "https://secure-escort.vercel.app",
     github: "https://github.com/lemonade0109/secure-escort.git",
     tags: [
@@ -35,7 +35,7 @@ export const projects = [
 
   {
     name: "Buy Easy",
-    desc: "Production ready e-commerce platform with admin dashboard, analytics, and payment integration.",
+    desc: "Production ready e-commerce platform with customer storefront and admin management",
     live: "https://buy-easy-six.vercel.app",
     github: "https://github.com/lemonade0109/buy-easy-six.git",
     tags: [

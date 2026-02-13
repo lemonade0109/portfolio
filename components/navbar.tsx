@@ -17,8 +17,8 @@ const Navbar: React.FC = () => {
           <Link href="/skills" className="hover:text-foreground">
             Skills
           </Link>
-          <Link href="/contact" className="hover:text-foreground">
-            Contact
+          <Link href="/about" className="hover:text-foreground">
+            About
           </Link>
         </nav>
 
@@ -29,13 +29,9 @@ const Navbar: React.FC = () => {
             </Link>
           </Button>
           <Button asChild>
-            <Link
-              href={site.ctaSecondary.href}
-              target="_blank"
-              rel="noreferrer"
-            >
+            <a href={site.ctaSecondary.href} download="Jubril_Oyebamiji_CV.pdf">
               {site.ctaSecondary.label}
-            </Link>
+            </a>
           </Button>
         </div>
       </div>

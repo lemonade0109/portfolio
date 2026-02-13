@@ -1,10 +1,21 @@
+"use client";
+
 import React from "react";
 import { Card, CardContent } from "../ui/card";
 import { site } from "@/lib/data";
 import { Button } from "../ui/button";
-import Link from "next/link";
 
 const Hero: React.FC = () => {
+  const handleContactClick = (event: React.MouseEvent<HTMLAnchorElement>) => {
+    event.preventDefault();
+
+    const contactSection = document.getElementById("contact");
+    if (!contactSection) return;
+
+    contactSection.scrollIntoView({ behavior: "smooth", block: "start" });
+    window.history.replaceState(null, "", "#contact");
+  };
+
   return (
     <section>
       <Card>
@@ -23,13 +34,18 @@ const Hero: React.FC = () => {
 
           <div className="mt-6 flex flex-col gap-2 sm:flex-row">
             <Button asChild variant="outline">
-              <Link href={site.ctaSecondary.href}>
+              <a
+                href={site.ctaSecondary.href}
+                download="Jubril_Oyebamiji_CV.pdf"
+              >
                 {site.ctaSecondary.label}
-              </Link>
+              </a>
             </Button>
 
             <Button asChild variant="ghost">
-              <Link href={site.ctaTertiary.href}>{site.ctaTertiary.label}</Link>
+              <a href={site.ctaTertiary.href} onClick={handleContactClick}>
+                {site.ctaTertiary.label}
+              </a>
             </Button>
           </div>
         </CardContent>
