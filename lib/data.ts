@@ -18,7 +18,7 @@ export const site = {
 export const projects = [
   {
     name: "Secure Escort",
-    desc: "Full stack security escort and delivery management platform with role based dashboards for users, guards, administrators.",
+    desc: "Secure Escort is a full‑stack platform for managing security escort, personal protection, and delivery requests. It provides role‑based experiences for users, guards, and admins—covering request creation, guard assignment, status updates, tracking, analytics, and secure authentication.",
     live: "https://secure-escort.vercel.app",
     github: "https://github.com/lemonade0109/secure-escort.git",
     tags: [
@@ -35,7 +35,7 @@ export const projects = [
 
   {
     name: "Buy Easy",
-    desc: "Production ready e-commerce platform with customer storefront and admin management",
+    desc: "Buy Easy is a full-stack, production-ready e-commerce platform built with Next.js 15, TypeScript, and Prisma. It delivers a seamless shopping experience for customers and powerful management tools for admins.",
     live: "https://buy-easy-six.vercel.app",
     github: "https://github.com/lemonade0109/buy-easy-six.git",
     tags: [
@@ -51,7 +51,7 @@ export const projects = [
   },
   {
     name: "Your Home Away",
-    desc: "Vacation rental platform (Airbnb-style) with bookings, reviews, Stripe payments, and dashboard.",
+    desc: "A modern, full-stack vacation rental platform built with Next.js 14, featuring property listings, booking management, payments, and real-time reviews. Think Airbnb, but with a personal touch.",
     live: "https://your-home-away.vercel.app",
     github: "https://github.com/lemonade0109/your-home-away.git",
     tags: [
