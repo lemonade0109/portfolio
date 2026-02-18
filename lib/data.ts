@@ -4,9 +4,9 @@ export const site = {
   location: "Lagos, Nigeria",
   openTo: "Remote (USA, UK, Germany, France)",
   email: "jubriloyebamiji8@gmail.com",
+  linkedin: "https://linkedin.com/in/jubril-oyebamiji-995a612a5",
   phone: "+234 807 545 4735",
   github: "https://github.com/lemonade0109",
-  linkedin: "",
   portfolio: "",
   headline:
     "I build production ready web applications with Next.js, React, Prisma, TypeScript,and Cloud Tooling.",

@@ -14,12 +14,25 @@ const Contact: React.FC = () => {
             <p className="mt-1 text-sm text-muted-foreground">
               Email: <span className="text-foreground">{site.email}</span>
             </p>
+
+            <p className="text-sm text-muted-foreground">
+              LinkedIn:{" "}
+              <Link
+                href={site.linkedin}
+                target="_blank"
+                rel="noreferrer"
+                className="text-foreground underline"
+              >
+                {site.linkedin}
+              </Link>
+            </p>
           </div>
 
           <div className="flex gap-2">
             <Button asChild variant="outline">
               <Link href={`mailto:${site.email}`}>Send Email</Link>
             </Button>
+
             <Button asChild>
               <Link href={site.github} target="_blank" rel="noreferrer">
                 GitHub
