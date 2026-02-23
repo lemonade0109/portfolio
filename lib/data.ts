@@ -52,7 +52,7 @@ export const projects = [
   {
     name: "Your Home Away",
     desc: "A modern, full-stack vacation rental platform built with Next.js 14, featuring property listings, booking management, payments, and real-time reviews. Think Airbnb, but with a personal touch.",
-    live: "https://your-home-away.vercel.app",
+    live: "https://your-home-away-project.vercel.app/",
     github: "https://github.com/lemonade0109/your-home-away.git",
     tags: [
       "Next.js",
