@@ -21,9 +21,9 @@ const Contact: React.FC = () => {
                 href={site.linkedin}
                 target="_blank"
                 rel="noreferrer"
-                className="text-foreground underline"
+                className="text-foreground hover:underline"
               >
-                {site.linkedin}
+                {site.linkedinName}
               </Link>
             </p>
           </div>

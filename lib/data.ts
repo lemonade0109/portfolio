@@ -5,6 +5,7 @@ export const site = {
   openTo: "Remote (USA, UK, Germany, France)",
   email: "jubriloyebamiji8@gmail.com",
   linkedin: "https://linkedin.com/in/jubril-oyebamiji-995a612a5",
+  linkedinName: "Linkedin",
   phone: "+234 807 545 4735",
   github: "https://github.com/lemonade0109",
   portfolio: "",

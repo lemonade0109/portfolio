@@ -27,7 +27,7 @@ export default function AboutPage() {
 
           <p>
             I&apos;m currently seeking a remote full-stack role in a fast-moving
-            product team in the USA, UK, Germany, or France.
+            product team.
           </p>
         </CardContent>
       </Card>
