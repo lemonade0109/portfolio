@@ -2,7 +2,7 @@ export const site = {
   name: "Jubril Oyebamiji",
   title: "Full Stack Next.js Developer",
   location: "Lagos, Nigeria",
-  openTo: "Remote (USA, UK, Germany, France)",
+  openTo: "Remote",
   email: "jubriloyebamiji8@gmail.com",
   linkedin: "https://linkedin.com/in/jubril-oyebamiji-995a612a5",
   linkedinName: "Linkedin",
