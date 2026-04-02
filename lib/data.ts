@@ -19,7 +19,7 @@ export const site = {
 export const projects = [
   {
     name: "Secure Escort",
-    desc: "Secure Escort is a full‑stack platform for managing security escort, personal protection, and delivery requests. It provides role‑based experiences for users, guards, and admins—covering request creation, guard assignment, status updates, tracking, analytics, and secure authentication.",
+    desc: "Secure Escort is a full-stack platform for managing security escort, personal protection, and delivery requests. It provides role-based experiences for users, guards, and admins. Covering request creation, guard assignment, status updates, tracking, analytics, and secure authentication.",
     live: "https://secure-escort.vercel.app",
     github: "https://github.com/lemonade0109/secure-escort.git",
     tags: [
