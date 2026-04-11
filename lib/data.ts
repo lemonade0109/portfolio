@@ -12,7 +12,10 @@ export const site = {
   headline:
     "I build production ready web applications with Next.js, React, Prisma, TypeScript,and Cloud Tooling.",
   ctaPrimary: { label: "Github", href: "https://github.com/lemonade0109" },
-  ctaSecondary: { label: "Download CV", href: "/Jubril_Oyebamiji_CV.pdf" },
+  ctaSecondary: {
+    label: "Download CV",
+    href: "/_Jubril_Oyebamiji_CV.pdf",
+  },
   ctaTertiary: { label: "Contact Me", href: "#contact" },
 };
 
