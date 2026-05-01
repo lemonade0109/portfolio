@@ -1,6 +1,7 @@
 export const site = {
   name: "Jubril Oyebamiji",
-  title: "Full Stack Next.js Developer",
+  title:
+    "Full-Stack Next.js Engineer | AI Data Annotator & Model Evaluation Specialist",
   location: "Lagos, Nigeria",
   openTo: "Remote",
   email: "jubriloyebamiji8@gmail.com",
@@ -10,7 +11,7 @@ export const site = {
   github: "https://github.com/lemonade0109",
   portfolio: "",
   headline:
-    "I build production ready web applications with Next.js, React, Prisma, TypeScript,and Cloud Tooling.",
+    "I build production-ready web applications with Next.js, React, Prisma, and TypeScript. I also improve AI systems through data annotation and model evaluation.",
   ctaPrimary: { label: "Github", href: "https://github.com/lemonade0109" },
   ctaSecondary: {
     label: "Download CV",
