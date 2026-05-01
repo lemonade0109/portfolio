@@ -14,7 +14,7 @@ export const site = {
   ctaPrimary: { label: "Github", href: "https://github.com/lemonade0109" },
   ctaSecondary: {
     label: "Download CV",
-    href: "/_Jubril_Oyebamiji_CV.pdf",
+    href: "/_Jubril_Oyebamiji_Main.pdf",
   },
   ctaTertiary: { label: "Contact Me", href: "#contact" },
 };
